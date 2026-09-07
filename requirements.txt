@@ -1,0 +1,10 @@
+﻿ultralytics
+opencv-python
+easyocr
+numpy
+requests
+streamlit
+pandas
+folium
+streamlit-folium
+openvino

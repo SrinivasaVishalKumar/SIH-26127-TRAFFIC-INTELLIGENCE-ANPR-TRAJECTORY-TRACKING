@@ -1,0 +1,17 @@
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore YOLO model weights (they are big and download automatically)
+*.pt
+
+# Ignore large media files (everyone keeps their own local test videos)
+data/*.mp4
+data/*.avi
+data/*.jpg
+data/*.png
