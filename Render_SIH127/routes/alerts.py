@@ -8,7 +8,7 @@ from pymongo import MongoClient
 
 alerts_bp = Blueprint('alerts', __name__)
 
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://user1:user12326@cluster0.rn7dha5.mongodb.net/?appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://user1:<db_password>@cluster0.rn7dha5.mongodb.net/?appName=Cluster0")
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client["traffic_system"]
 
