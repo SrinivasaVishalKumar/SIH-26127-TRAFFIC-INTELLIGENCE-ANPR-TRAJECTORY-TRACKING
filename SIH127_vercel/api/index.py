@@ -6,7 +6,7 @@ from pymongo import MongoClient
 app = FastAPI()
 
 # Replace with your actual MongoDB connection string if needed
-MONGO_URI = "mongodb+srv://user1:user12326@cluster0.rn7dha5.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://user1:<db_password>@cluster0.rn7dha5.mongodb.net/?appName=Cluster0"
 
 # MongoClient initialized once at module level to reuse connection pool across warm starts
 client = MongoClient(
