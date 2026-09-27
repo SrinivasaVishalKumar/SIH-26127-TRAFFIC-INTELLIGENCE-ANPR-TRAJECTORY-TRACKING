@@ -9,7 +9,7 @@ CORS(app)
 # MongoDB Connection targeting the correct 'traffic_system' database
 MONGO_URI = os.getenv(
     "MONGO_URI",
-    "mongodb+srv://user1:user12326@cluster0.rn7dha5.mongodb.net/traffic_system?retryWrites=true&w=majority"
+    "mongodb+srv://user1:<db_password>@cluster0.rn7dha5.mongodb.net/?appName=Cluster0"
 )
 
 try:
